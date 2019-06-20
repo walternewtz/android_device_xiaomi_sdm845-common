@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "9.0"
+  },
+  {
+    "repository": "crdroidandroid/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "9.0"
+  },
+  {
+    "repository" : "crdroidandroid/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "9.0-beryllium"
+  }
+]
