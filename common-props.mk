@@ -210,7 +210,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1 \
     persist.rcs.supported=0 \
-    persist.vendor.ims.disableUserAgent=0
+    persist.vendor.ims.disableUserAgent=0 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
