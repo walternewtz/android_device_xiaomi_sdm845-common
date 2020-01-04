@@ -261,6 +261,10 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
