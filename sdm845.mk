@@ -248,8 +248,8 @@ PRODUCT_COPY_FILES += \
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
-    $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
-    $(LOCAL_PATH)/permissions/privapp-permissions-codedaurora-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-codedaurora-ims.xml
+    $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
+    $(LOCAL_PATH)/permissions/privapp-permissions-codedaurora-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-codedaurora-ims.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-qcrilmsgtunnel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-qcrilmsgtunnel.xml
 
 # Radio
