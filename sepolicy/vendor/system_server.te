@@ -3,3 +3,5 @@ allow system_server persist_camera_prop:file {open read getattr};
 
 allow system_server camera_prop:file {open read getattr};
 allow system_server vendor_default_prop:file { read };
+
+get_prop(system_server, persist_camera_prop)
