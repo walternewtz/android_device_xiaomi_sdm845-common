@@ -8,5 +8,4 @@ allow priv_app sysfs_loop:file { open read };
 allow priv_app vendor_audio_prop:file read;
 allow priv_app vendor_default_prop:file {open read getattr};
 
-get_prop(priv_app, additional_prop)
 get_prop(priv_app, persist_camera_prop)
