@@ -1,4 +1,4 @@
-        /*
+/*
  * Copyright (C) 2015 The CyanogenMod Project
  *               2017-2020 The LineageOS Project
  *
@@ -33,7 +33,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, Intent intent) {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
-
         DiracUtils.initialize();
         ThermalUtils.startService(context);
     }
