@@ -205,11 +205,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # IFAA manager
-#PRODUCT_PACKAGES += \
-#    org.ifaa.android.manager
-
-#PRODUCT_BOOT_JARS += \
-#    org.ifaa.android.manager
+PRODUCT_PACKAGES += \
+    IFAAService
 
 # Input
 PRODUCT_COPY_FILES += \
