@@ -24,7 +24,7 @@ source "${HELPER}"
 function blob_fixup() {
     case "${1}" in
         vendor/lib/camera/components/com.qti.node.watermark.so)
-            grep -q "libpiex-v29.so" "${2}" || ${PATCHELF} --add-needed "libpiex-v29.so" "${2}"
+            grep -q "libpiex_shim.so" "${2}" || ${PATCHELF} --add-needed "libpiex_shim.so" "${2}"
             ;;
     esac
 }
